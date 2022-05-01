@@ -92,7 +92,7 @@ yarn create next-app client --typescript
 Setup tailwindcss
 
 ```bash
-yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest && npx tailwindcss init -p
+yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest && yarn tailwindcss init -p
 ```
 
 Modify `tailwind.config.js` according to the [installation guide](https://tailwindcss.com/docs/guides/nextjs) and `import 'tailwindcss/tailwind.css'` in `_app.tsx`.
